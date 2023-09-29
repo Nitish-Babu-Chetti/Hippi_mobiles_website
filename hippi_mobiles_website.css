@@ -1,0 +1,45 @@
+#main-nav ul{
+    margin-right: 100px;
+}
+#main-nav a{
+    margin: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#background-image{
+    background-image: url("https://th.bing.com/th/id/R.1eb9c73f8115b2ad094648ce54c43a30?rik=GEfpxjahzeZ6sg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2016%2f12%2fWater-4K-Wallpaper-Gallery.jpg&ehk=5eqPuUIem%2fN%2bxkVI2YOn7Sm7QVivn2FkzcjaRPCZbAo%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    height: 100vh;
+}
+.main-text{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    color: whitesmoke;
+    text-align: center;
+}
+#cards,#carousel-slider,#carousel-slider-2,#happy-customers{
+    background-color: lightgrey;
+}
+footer i{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#subscribe {
+    background-image: url("https://th.bing.com/th/id/R.1eb9c73f8115b2ad094648ce54c43a30?rik=GEfpxjahzeZ6sg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2016%2f12%2fWater-4K-Wallpaper-Gallery.jpg&ehk=5eqPuUIem%2fN%2bxkVI2YOn7Sm7QVivn2FkzcjaRPCZbAo%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+#subscribe-text{
+    background-color: rgba(0,0,0,0.5);
+}
+#main-nav a:hover{
+    background-color: whitesmoke;
+    color: gray;
+}
+@media (max-width: 576px){
+    #background-image div{
+        align-items: center;
+        justify-content: center;
+        display: table-column;
+    }
+}
